@@ -1,0 +1,30 @@
+/*
+
+ Params info:
+ Type: 0 - Region | 1 - Country Code
+ Region / Country Code: Self Explanatory
+ URL: FastDL server URL
+
+ Region can be a continent code (NA, EU, AS, SA, AF, OC) or a Country code (US, DE, FR)
+
+  Example of JSON
+*/
+/*
+{
+  "0:EU": [                                 // "Region Type: Region Name"
+    "http://fastdl-eu.example.com/cstrike"  // Fast Download server URL
+  ],
+  "0:US": [
+    "http://fastdl-us.example.com/cstrike"
+  ],
+  "1:RO": [
+    "http://fastdl-ro.example.com/cstrike"
+  ],
+  "1:DE": [
+    "http://fastdl-de.example.com/cstrike"
+  ],
+  "1:EN": [
+    "http://fastdl-en.example.com/cstrike"
+  ]
+}
+*/
